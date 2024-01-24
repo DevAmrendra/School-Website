@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    min-width: 100%;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.img-banner {
+    background: url("banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  
+}
+
+.boom {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: brightness(40%);
+}
+
+.students {
+    color: #1598d1;
+}
+
+.vision {
+    color: #fea301;
+}
+
+.p-facilities {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.cards {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border: transparent;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.c1 {
+    background-color: #f0aa00;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2 {
+    background-color: #ff236c;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3 {
+    background-color: #64c8ff;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c4 {
+    background-color: #a5c347;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: white;
+    font-size: 50px;
+}
+
+.standard {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.curriculum {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sc-cards {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scg1 {
+    background-image: linear-gradient(#d9f0fa, #FFFFFF);
+    border: 1px solid #d9f0fa;
+    border-radius: 20px;
+}
+
+.scg2 {
+    background-image: linear-gradient(#fcf2dd, #FFFFFF);
+    border: 1px solid #fcf2dd;
+    border-radius: 20px;
+}
+
+.scg3 {
+    background-image: linear-gradient(#e9dcfa, #FFFFFF);
+    border: 1px solid #e9dcfa;
+    border-radius: 20px;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+    color: gray;
+}
+
+.kinder-rm {
+    color: #64c8ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.elementary-rm {
+    color: #f0aa01;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.middle-rm {
+    color: #8f11ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.our-school {
+    background-color: #625df0;
+    padding-bottom: 50px;
+}
+
+.our-school-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-school-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-our-school {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.trained {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+}
+
+.trained-icon {
+    color: #ff236c;
+    padding: 0px 20px 0px 20px;
+}
+
+.trained-text {
+    font-size: 20px;
+    padding-top: 11px;
+
+}
+
+.structure {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+.structure-icon {
+    color: #64c8ff;
+    padding: 0px 20px 0px 20px;
+}
+
+.structure-text {
+    font-size: 20px;
+    padding-top: 11px;
+}
+
+.lesson {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+}
+
+.lesson-icon {
+    color: #ffc259;
+    padding: 0px 20px 0px 20px;
+}
+
+.lesson-text {
+    font-size: 20px;
+    padding-top: 11px;
+}
+
+.circle-image {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.banner-text {
+    color: white;
+}
+
+.tilt-box {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    margin: 70px 70px 0px 70px;
+}
+
+.tilt-cards {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border: transparent;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tc1 {
+    background-color: #64c7fe;
+    height: 125px;
+    width: 125px;
+    border: transparent;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+}
+
+.tc2 {
+    background-color: #9bbd33;
+    height: 125px;
+    width: 125px;
+    border-radius: 10%;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+}
+
+.tc3 {
+    background-color: #ff3076;
+    height: 125px;
+    width: 125px;
+    border: transparent;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+}
+
+.tc4 {
+    background-color: #8700ff;
+    height: 125px;
+    width: 125px;
+    border: transparent;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+}
+
+.tilt-icons {
+    font-size: 70px;
+    color: white;
+    rotate: -45deg;
+}
+
+.tilt-card-num {
+    padding-top: 30px;
+}
+
+.tilt-card-text {
+    color: gray;
+}
+
+.course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.course-bg {
+    width: 100%;
+    background-image: url("wave.svg");
+    background-size: cover;
+    height: 70%;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-box {
+    height: 300px;
+    width: 95%;
+    border: 0.01px solid silver;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-timer {
+    color: #8700ff;
+}
+
+.timer {
+    align-self: flex-start center;
+    margin: 20px 0px 20px 0px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+    flex-wrap: wrap;
+}
+
+.input-mail {
+    height: 50px;
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.sub-btn {
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f0aa00;
+    color: white;
+    font-weight: bold;
+}
+
+.course-img {
+    height: 450px;
+    transform: translate(0px, -80px);
+}
+
+.contact-us {
+    background-color: #5d58ef;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer {
+    background-color: #433ed2;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.school {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 70px;
+}
